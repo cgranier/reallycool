@@ -1,7 +1,7 @@
 ---
 title: "Cool Things About this Website"
 date: 2023-03-31T10:15:16-04:00
-draft: true # Set 'false' to publish
+draft: false # Set 'false' to publish
 description: "Interesting tidbits of information related to this website that don't fit anywhere else."
 categories:
 -
