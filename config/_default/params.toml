@@ -1,0 +1,8 @@
+# Meta Config
+description = "Hello"
+
+# Header Configuration
+avatar = "/img/robot.png"
+
+[emoji]
+enableEmoji = true
