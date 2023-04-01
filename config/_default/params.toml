@@ -2,7 +2,7 @@
 description = "Hello"
 
 # Header Configuration
-avatar = "/img/robot.png"
+avatar = "/img/robot_80x80.png"
 
 [emoji]
 enableEmoji = true
