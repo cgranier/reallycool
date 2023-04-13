@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default `en` }}" class="scroll-smooth">
+    <head>
+    {{- partial "head.html" . -}}
+    </head>
+    <body class="max-w-screen-md px-10 mx-auto">
+        {{- partial "header.html" . -}}
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{ range ( where .Site.RegularPages "Type" "posts" | first 3 ) }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+        {{- partial "footer.html" . -}}
+    </body>
+</html>
