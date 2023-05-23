@@ -10,3 +10,5 @@ googleAnalytics = 'G-9LX5G8MV0X'
 summaryLength= 15
 paginate = 5 
 
+# Custom CSS
+calloutCSS = ["css/callout.css"]
