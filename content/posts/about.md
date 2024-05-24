@@ -4,9 +4,9 @@ date: 2023-03-31T10:15:16-04:00
 draft: false # Set 'false' to publish
 description: "Interesting tidbits of information related to this website that don't fit anywhere else."
 categories:
--
+  -
 tags:
-- 
+  -
 ---
 
 ## Credits:
@@ -55,11 +55,14 @@ Bot icons created by [Smashicons - Flaticon](https://www.flaticon.com/free-icons
 
 > Red Cloud brings RCTV exclusive interviews to get your the latest news, industry trends and investment ideas from the junior mining sector. Hosted by Mark Bunting.
 
-11. [RCTV](http://ctrlsport.com/rc-racing-tv/): RC Racing TV
+11. [RCTV](https://www.youtube.com/@RedCloudTV) Red Cloud TV YouTube Channel
+
+> Red Cloud Financial Services provides a unique tailored marketing program dedicated to reaching the right people from its mining-focused global network, giving clients access to industry leading events and conferences, retail & institutional marketing, plus an in house growth-driven digital agency.
+
+12. [RCTV](http://ctrlsport.com/rc-racing-tv/): RC Racing TV
 
 > Racing scale RC vehicles epitomises CTRL in perhaps one of its purest forms. With a wide range of scales, power plants and classes; the one constant is that racers stand upto 100 feet away and CTRL the vehicle remotely at speeds of upto 70mph. We continue to be in sheer awe of this and have produced the RC Racing TV show for 13 years.
 
-12. [RCTV](https://www.radarcirebon.tv/) Radar Cirebon TV
+13. [RCTV](https://www.radarcirebon.tv/) Radar Cirebon TV
 
 > RCTV is a local TV located in Cirebon - West Java, which provides information about Cirebon and its surroundings as well as traditional regional traditional entertainment which is the pride of the Cirebon people. By presenting local news programs and traditional arts, RCTV has an advantage over national television stations. The community can enjoy more traditional programs typical of Cirebon and its surroundings.
-
