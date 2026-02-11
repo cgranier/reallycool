@@ -8,7 +8,8 @@ googleAnalytics = 'G-9LX5G8MV0X'
 
 # List Config
 summaryLength= 15
-paginate = 5 
+[pagination]
+  pagerSize = 5
 
 # Custom CSS
 calloutCSS = ["css/callout.css"]
