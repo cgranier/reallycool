@@ -2,7 +2,17 @@
 title: "AI Video Weekly Roundup — February 28, 2026"
 date: 2026-02-28T09:00:00-05:00
 description: "Seedance 2.0 rattles Hollywood, Google Flow gets a major overhaul, Kling 3.0 hits 4K, NVIDIA pushes local AI video to the desktop, and the deepfake regulation wave accelerates."
-tags: ["ai-video", "seedance", "google-flow", "kling", "sora", "veo", "deepfakes", "regulation"]
+tags:
+  [
+    "ai-video",
+    "seedance",
+    "google-flow",
+    "kling",
+    "sora",
+    "veo",
+    "deepfakes",
+    "regulation",
+  ]
 categories:
   - "Weekly Roundup"
 slug: "ai-video-weekly-roundup-2026-02-28"
@@ -54,7 +64,7 @@ A comprehensive analysis from Cliprise lays out where the major models stand thi
 - **Runway Gen-4 Turbo**: Leading in stylized and abstract content — VFX-oriented aesthetics and non-photorealistic work.
 - **LTX-2** (Lightricks): The standout for local/desktop generation — 20 seconds of 4K video with audio, running on consumer GPUs.
 
-The key takeaway: the question is no longer "which model is best" — it's which model is best *for each specific shot*. Multi-model workflows are becoming the professional standard.
+The key takeaway: the question is no longer "which model is best" — it's which model is best _for each specific shot_. Multi-model workflows are becoming the professional standard.
 
 ---
 
@@ -102,4 +112,6 @@ Meanwhile, the Grok deepfake controversy continues to reverberate — xAI's lax 
 
 ---
 
-*RCTV's AI Video Weekly Roundup is published every Friday. Subscribe to stay ahead of the curve.*
+_RCTV's AI Video Weekly Roundup is published every Friday. Subscribe to stay ahead of the curve._
+
+{{< subscribe >}}
