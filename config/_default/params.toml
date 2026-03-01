@@ -2,7 +2,7 @@
 description = "Tracking the tools, models, and business shifts reshaping video production through artificial intelligence."
 
 # Header Configuration
-avatar = "/img/robot_80x80.png"
+avatar = "/img/rctv-logo.svg"
 
 [emoji]
 enableEmoji = true

@@ -25,7 +25,7 @@
 [[main]]
     identifier = "about"
     name = "About"
-    url = "/posts/about"
+    url = "/about"
     weight = 5
 
 [[main]]
