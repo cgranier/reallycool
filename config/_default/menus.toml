@@ -5,45 +5,19 @@
     weight = 1
 
 [[main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts"
+    identifier = "roundup"
+    name = "Weekly Roundup"
+    url = "/categories/weekly-roundup"
     weight = 2
 
-# [[main]]
-#     identifier = "categories"
-#     name = "Categories"
-#     url = "/categories"
-#     weight = 3
-# 
-# [[main]]
-#     identifier = "tags"
-#     name = "Tags"
-#     url = "/tags"
-#     weight = 4
+[[main]]
+    identifier = "posts"
+    name = "Archive"
+    url = "/posts"
+    weight = 3
 
 [[main]]
     identifier = "about"
     name = "About"
     url = "/posts/about"
     weight = 5
-
-# Social Media Configuration
-
-# [[social]]
-#     identifier = "twitter"
-#     name = "Twitter"
-#     url = "#"
-#     weight = 1
-# 
-# [[social]]
-#     identifier = "instagram"
-#     name = "Instagram"
-#     url = "#"
-#     weight = 2
-# 
-# [[social]]
-#     identifier = "github"
-#     name = "GitHub"
-#     url = "#"
-#     weight = 3

@@ -1,68 +1,48 @@
 ---
-title: "Cool Things About this Website"
-date: 2023-03-31T10:15:16-04:00
-draft: false # Set 'false' to publish
-description: "Interesting tidbits of information related to this website that don't fit anywhere else."
+title: "About RCTV"
+date: 2026-02-28T10:00:00-05:00
+draft: false
+description: "RCTV covers the rapidly evolving world of AI-powered video production, content creation, and digital media."
 categories:
   -
 tags:
   -
 ---
 
-## Credits:
+## What is RCTV?
 
-Bot icons created by [Smashicons - Flaticon](https://www.flaticon.com/free-icons/bot)
+RCTV is an independent publication covering the intersection of artificial intelligence and video production. We track the tools, models, trends, and business shifts reshaping how video content is created, distributed, and consumed.
 
-## Other Cool Websites:
+From generative AI models like Sora, Kling, and Seedance to the regulatory landscape around synthetic media, we cover what matters — without the hype.
 
-1. [RCTV](https://www.rarecollectiblestv.com): Rare Collectibles TV
+## What We Publish
 
-> Based in California, RCTV works tirelessly with our numismatic network in order to ensure that you receive only the highest caliber coins, regardless of your location. Our passion for numismatics goes beyond supplying you with high quality, valuable coins. We also understand that every collection weaves a unique story to tell, which is why we are dedicated to providing you with all educational information that relates to your collection.
+**Weekly Roundup** — Every Friday, we publish a concise briefing on the most important AI video and media developments of the week. Key stats, model updates, industry moves, and regulatory changes — distilled into a single read.
 
-2. [RCTV](https://www.rctv.org): Reading Community Television:
+**Analysis** — Deeper dives into specific topics: model comparisons, workflow strategies, market shifts, and the business implications of AI-native content production.
 
-> Public Access Studio, Reading, MA.
+**Tools & Resources** — Curated guides to the AI video production landscape for creators, studios, and media professionals.
 
-3. [RCTV](https://www.rctvmediacenter.org/): Rochester Community Television
+## Who's Behind This
 
-> RCTV plays a critical role in democratizing media access in Rochester, NY. Since our founding in 1993, our mission has been to empower a diverse community of individuals with access to media tools, technology, and training — no matter that person's age, gender, sexuality, religion, or heritage.
+RCTV is run by a media technology veteran with over 25 years of experience in content distribution, digital media, and video platforms. Our editorial perspective is shaped by hands-on experience building and scaling video businesses — from early OTT platforms to YouTube networks reaching hundreds of millions of monthly views.
 
-4. [RCTV](https://rctv19.com/): RCTV 19
+We're not just observers. We build with these tools, test the models, and understand the production workflows from the inside.
 
-> RCTV19 is a community based television station that has been operational for over 20 years. RCTV is a part of the Mississippi News Group.
+## Why "RCTV"
 
-5. [RCTV](https://www.realitycreationtv.com/): Reality Creation TV
+Four letters. Dot com. A name built for media.
 
-> Reality Creation TV (RCTV) was founded by Joel Benesha, a successful entrepreneur dedicated to helping individuals maximise their potential both personally and professionally. Mr Benesha is a Certified Neuro-Linguistics Programming Practitioner  (NLP)  with several years of life and relationship coaching experience. Using a combination of neurology, psychology and spirituality to teach and help countless individuals manifest their desired reality. His passion for helping people has led him to engage in research of numerous metaphysical studies in hopes of answering the question "What is the driving principle or force of existence that shapes and molds one's desired reality?"
+RCTV.com has been under continuous ownership since its original registration, and the domain carries decades of history in broadcasting and media. We think it's the right home for a publication covering the future of video.
 
-6. [RCTV](https://rutherfordcountytn.gov/rctv/): Rutherford County TV
+## Get in Touch
 
-> Welcome to RCTV, the Government Access Channel of the Rutherford County Government. The objective of RCTV is to offer quality and informative government access programming to all residents of Rutherford County. Programming includes LIVE broadcast of all Rutherford County Commission meetings and their sub-committee meetings, Planning Commission meetings, Board of Zoning Appeals meetings and delayed broadcast of all Rutherford County School Board meetings. These meetings are then rebroadcast at a later date to allow all residents the opportunity to view them in their entirety. RCTV is a division of the Rutherford County Office of Information Technology.
+For editorial inquiries, tips, or partnership opportunities:
+**rctv.oxncw@simplelogin.com**
 
-7. [RCTV](https://www.spring-ford.net/news-media/rctv): Ram Country TV
+For domain inquiries:
+**rctv.oxncw@simplelogin.com**
 
-> Welcome to Ram Country TV! Spring-Ford is fortunate to have a state-of-the-art TV and video production studio on site. Branded RCTV, the studio is managed by an experienced professional staff and produces high quality live and recorded video content for a variety of uses. Original programming, produced by teachers, students, administrators, School Board and community members, can be accessed through Comcast Channel 969, Verizon channel 44 and live streamed online. RCTV is taking an active role in meeting our expanding digital and video demands.
+---
 
-8. [RCTV](https://www.redmond.gov/200/Redmond-City-Television): Redmond City Television
-
-> Redmond City Television (RCTV) was created in 1996 as a convenient way for residents to receive information about issues, services, and events within Redmond as well as highlight the unique character of our community. RCTV is free of commercial content and is managed by the City.
-
-9. [RCTV](http://randolphcommunitytv.com/): Randolph Community TV
-
-> Randolph Community Television is a non-profit community media center located in Randolph Massachusetts. Since 1998 RCTV has been offering training, equipment and support in the art of television production to seniors, teens, individuals, groups and non-profit organizations. The goal is to train the residents of Randolph to use the facility to develop their own TV programming. RCTV gives you a chance to connect with others and share ideas, information and opinions through cable TV. By becoming a member, you not only get access to equipment and training but channel time as well.
-
-10. [RCTV](https://podcasts.apple.com/us/podcast/rctv-in-conversation-podcast/id1655908909): Red Cloud TV
-
-> Red Cloud brings RCTV exclusive interviews to get your the latest news, industry trends and investment ideas from the junior mining sector. Hosted by Mark Bunting.
-
-11. [RCTV](https://www.youtube.com/@RedCloudTV) Red Cloud TV YouTube Channel
-
-> Red Cloud Financial Services provides a unique tailored marketing program dedicated to reaching the right people from its mining-focused global network, giving clients access to industry leading events and conferences, retail & institutional marketing, plus an in house growth-driven digital agency.
-
-12. [RCTV](http://ctrlsport.com/rc-racing-tv/): RC Racing TV
-
-> Racing scale RC vehicles epitomises CTRL in perhaps one of its purest forms. With a wide range of scales, power plants and classes; the one constant is that racers stand upto 100 feet away and CTRL the vehicle remotely at speeds of upto 70mph. We continue to be in sheer awe of this and have produced the RC Racing TV show for 13 years.
-
-13. [RCTV](https://www.radarcirebon.tv/) Radar Cirebon TV
-
-> RCTV is a local TV located in Cirebon - West Java, which provides information about Cirebon and its surroundings as well as traditional regional traditional entertainment which is the pride of the Cirebon people. By presenting local news programs and traditional arts, RCTV has an advantage over national television stations. The community can enjoy more traditional programs typical of Cirebon and its surroundings.
+*RCTV is published independently from Miami, Florida.*

@@ -2,7 +2,7 @@ baseURL = 'https://rctv.com/'
 copyright = "{year}" # To make 2007 - 2022. Just add before {year} example: 2007 - {year}
 languageCode = 'en-us'
 theme = 'lowkey'
-title = 'Really Cool Technology Ventures'
+title = 'RCTV — AI Video & Media Intelligence'
 enableRobotsTXT = true
 googleAnalytics = 'G-9LX5G8MV0X'
 
