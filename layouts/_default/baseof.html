@@ -2,6 +2,11 @@
 <html lang="{{ .Site.LanguageCode | default `en` }}" class="scroll-smooth">
   <head>
     {{- partial "head.html" . -}}
+    <style>
+      html {
+        scrollbar-gutter: stable;
+      }
+    </style>
   </head>
   <body class="max-w-screen-md px-10 mx-auto">
     {{- partial "header.html" . -}}
