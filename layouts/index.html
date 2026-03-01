@@ -1,0 +1,32 @@
+{{ define "main" }}
+<article class="flex flex-col gap-3">
+  <header>
+    <h2 class="text-2xl font-extrabold text-gray-900">{{ .Title }}</h2>
+  </header>
+  <section class="content text-lg text-gray-800">{{ .Content }}</section>
+</article>
+
+<section class="py-6 flex flex-col gap-8">
+  {{ range ( where .Site.RegularPages "Type" "posts" | first 3 ) }}
+  <article class="flex flex-col gap-1">
+    <h3 class="text-xl font-bold hover:underline">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h3>
+    <div class="text-sm text-gray-500 flex gap-3">
+      <time datetime="{{ .PublishDate }}"
+        >{{ .PublishDate.Format "2 January 2006" }}</time
+      >
+      {{ with (.GetTerms "categories") }} — {{ range . }}
+      <a class="hover:text-gray-500" href="{{ .RelPermalink }}"
+        >{{ .LinkTitle }}</a
+      >
+      {{ end }} {{ end }}
+    </div>
+    {{ with .Params.description }}
+    <p class="text-gray-600 mt-1">{{ . }}</p>
+    {{ end }}
+  </article>
+  {{ end }}
+</section>
+
+{{ end }}
