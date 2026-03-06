@@ -593,6 +593,9 @@ video {
     max-width: 1536px;
   }
 }
+.visible {
+  visibility: visible;
+}
 .collapse {
   visibility: collapse;
 }
