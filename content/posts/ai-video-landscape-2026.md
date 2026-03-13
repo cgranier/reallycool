@@ -1,6 +1,6 @@
 ---
 title: "The AI Video Landscape — 2026"
-date: 2026-03-06T10:22:00-05:00
+date: 2026-03-01T10:00:00-05:00
 description: "A living reference guide to the major AI video generation models, platforms, and open-source tools shaping the industry in 2026."
 tags:
   [
@@ -23,7 +23,7 @@ slug: "ai-video-landscape-2026"
 draft: false
 ---
 
-This is RCTV's living reference to the AI video generation landscape. Updated regularly as models launch, pricing changes, and capabilities evolve. Last updated: **March 6, 2026**.
+This is RCTV's living reference to the AI video generation landscape. Updated regularly as models launch, pricing changes, and capabilities evolve. Last updated: **March 13, 2026**.
 
 ---
 
@@ -35,13 +35,18 @@ These are the production-grade models dominating professional and creator workfl
 
 **Best for:** Physics simulation, narrative coherence, prompt fidelity
 
-OpenAI's flagship video model excels at realistic physics — cause-and-effect relationships, object permanence, natural fabric and fluid motion. Sora 2 now powers real ad campaigns and has a Disney partnership enabling generation with 200+ licensed characters. The social iOS app adds creation and remixing capabilities for consumer users.
+OpenAI's flagship video model excels at realistic physics — cause-and-effect relationships, object permanence, natural fabric and fluid motion. Sora 2 powers real ad campaigns and has a Disney partnership enabling generation with 200+ licensed characters from Disney, Marvel, Pixar, and Star Wars. The social iOS app adds creation and remixing capabilities for consumer users.
+
+**Sora 1 officially retired** for US users on March 13, 2026 — content not manually exported before this date is no longer accessible. Sora 2 is now the only available experience in the US; Sora 1 remains available in regions where Sora 2 has not yet rolled out.
+
+Reports from The Information (March 12) indicate OpenAI plans to fold Sora's video generation directly into ChatGPT, mirroring how image generation via DALL-E was absorbed into the chatbot interface. Standalone Sora app installs dropped 45% month-on-month in January 2026, and the app fell out of Apple's US top 100. No official launch date for the ChatGPT integration has been confirmed.
 
 - **Max resolution:** 1080p
 - **Max duration:** 20 seconds
 - **Audio:** Native synchronized audio
 - **Access:** ChatGPT Plus ($20/mo), Pro ($200/mo)
 - **API:** Available ($30/min generated video)
+- **Note:** Sora 1 retired March 13 (US); ChatGPT integration reportedly in development
 
 ---
 
@@ -117,15 +122,18 @@ The distribution advantage is unique: over 500 million X users have direct acces
 
 ### Runway Gen-4 Turbo — Runway
 
-**Best for:** Stylized content, VFX aesthetics, professional ecosystem
+**Best for:** Stylized content, VFX aesthetics, professional ecosystem, real-time avatars
 
-Runway leads in non-photorealistic and stylized video — VFX-oriented aesthetics, abstract content, and artistic directions where other models default to photorealism. Gen-4 Turbo also has the most mature professional ecosystem with motion brushes, scene consistency tools, and a robust API.
+Runway leads in non-photorealistic and stylized video — VFX-oriented aesthetics, abstract content, and artistic directions where other models default to photorealism. Gen-4 Turbo also has the most mature professional ecosystem with motion brushes, scene consistency tools, and a robust API. Runway closed a $315M Series C in February 2026 at a $5.3B valuation.
 
-- **Max resolution:** 1080p
+On March 9, Runway launched **Characters** — a real-time video agent API built on its GWM-1 world model. Characters generates fully conversational AI avatars from a single reference image with no fine-tuning required. The avatars sustain realistic lip-sync, facial expressions, eye contact, and gesture across extended multi-minute conversations, running at 24fps at 720p in real time. BBC and Silverside are early enterprise partners, with the API available to developers at dev.runwayml.com. Characters targets customer support, interactive training, and branded marketing experiences — a direct play for the enterprise avatar market currently led by HeyGen and Synthesia.
+
+- **Max resolution:** 1080p (Gen-4 Turbo); 720p real-time (Characters)
 - **Audio:** Supported
-- **Key feature:** Motion brushes, style control, API maturity
+- **Key features:** Motion brushes, style control, API maturity; Characters real-time avatar API (GWM-1)
 - **Access:** From $12/mo
-- **API:** Most mature video generation API available
+- **API:** Most mature video generation API available; Characters API at dev.runwayml.com
+- **Note:** Characters is an enterprise API product built on GWM-1, separate from the Gen-4 Turbo generation pipeline
 
 ---
 
@@ -148,17 +156,22 @@ The most accessible entry point to AI video generation. Pika's strength is speed
 
 The open-source AI video ecosystem has matured significantly, making local generation on consumer hardware a viable option for privacy-conscious creators and developers.
 
-### LTX-2 — Lightricks
+### LTX-2.3 — Lightricks
 
-**Best for:** Local/desktop generation, consumer GPU workflows
+**Best for:** Local/desktop generation, consumer GPU workflows, high-frame-rate output
 
-The standout for local generation. LTX-2 delivers 20 seconds of 4K video with audio on consumer RTX GPUs via ComfyUI. NVIDIA's CES 2026 optimizations (NVFP4/NVFP8 data formats) deliver 3x faster performance and 60% less VRAM usage.
+The standout for local generation — and now significantly upgraded. Released March 2026, LTX-2.3 is a comprehensive rebuild of the original LTX-2: a new VAE for sharper detail, a 4× larger text connector for better prompt understanding, and an improved HiFi-GAN vocoder for cleaner native audio. The model ships alongside a dedicated **desktop video editor**, making the entire local pipeline accessible without a ComfyUI node graph.
 
-- **Max resolution:** 4K (with NVIDIA RTX upscaling)
-- **Audio:** Built-in
-- **Hardware:** Runs on GPUs with 12GB+ VRAM (48GB recommended)
-- **Integration:** ComfyUI native
-- **License:** Open source
+Key new capabilities: native portrait mode (9:16 up to 1080×1920), last-frame interpolation for seamless clip chaining, and 24/48fps output options alongside the previous frame rates. At GDC this week, NVIDIA announced 2.5× performance gains on RTX 50 Series via NVFP4 quantization, 60% lower VRAM usage, and RTX Video Super Resolution for ComfyUI delivering 4K upscaling 30× faster than competing local alternatives. The new ComfyUI App View strips the node-graph interface into a simplified prompt-in/video-out UI for non-technical users.
+
+- **Max resolution:** 4K native (true 4K, not upscaled)
+- **Max duration:** 20 seconds
+- **Frame rate:** Up to 50fps (24/48fps options also available)
+- **Audio:** Native synchronized audio (improved HiFi-GAN vocoder)
+- **Portrait mode:** Yes (9:16, up to 1080×1920)
+- **Hardware:** Runs on GPUs with 12GB+ VRAM; optimized for RTX 50 Series (2.5× faster via NVFP4)
+- **Integration:** ComfyUI native; standalone desktop video editor (shipped March 2026)
+- **License:** Apache 2.0 (free for companies under $10M revenue; commercial license required above that threshold)
 
 ---
 
@@ -181,6 +194,7 @@ Alibaba's Wan 2.2 series introduces Mixture-of-Experts (MoE) architecture to vid
 - **Mochi 1** — High-fidelity short video with strong prompt alignment
 - **HunyuanVideo** (Tencent) — Solid image-to-video with coherent motion
 - **MAGI-1** — Long-form video synthesis capabilities
+- **Helios** (Peking University / ByteDance / Canva) — 14B autoregressive diffusion model; 19.5fps real-time generation on a single NVIDIA H100; capable of minute-scale video; Apache 2.0 license. Released March 2026. Notable for real-time throughput on a single accelerator.
 
 ---
 
@@ -200,7 +214,9 @@ The right model depends on the shot, not the project. Here's a practical decisio
 
 **Need cheapest API?** → Grok Imagine ($4.20/min)
 
-**Need local generation / privacy?** → LTX-2 via ComfyUI
+**Need local generation / privacy?** → LTX-2.3 via ComfyUI or desktop editor
+
+**Need real-time interactive avatars?** → Runway Characters (GWM-1)
 
 **Need multi-shot narrative?** → Seedance 2.0 Pro
 
@@ -213,8 +229,9 @@ Most professional workflows now use 2-3 models per project, routing different sh
 ## What's Coming
 
 - **Seedance 2.0 Pro global API** — Paused indefinitely; no revised timeline from ByteDance. Third-party access expanding in the meantime
+- **Sora integration into ChatGPT** — The Information (March 12) reports OpenAI plans to fold Sora into ChatGPT rather than maintain a standalone app. No official confirmation or launch date
 - **Google Flow + YouTube integration** — Expected before year-end 2026; paid tiers likely to follow
-- **NVIDIA GTC 2026** — Later this month; expect next-gen local AI video announcements
+- **NVIDIA GTC 2026** — March 16–19 in San Jose. Jensen Huang keynote Monday March 16; expect next-gen silicon, physical AI infrastructure, and potential local video workflow announcements building on the GDC previews
 - **EU AI Act Article 50** — August 2026, requiring machine-readable metadata on all AI-generated content
 - **Unlimited-length AI video** — EPFL's drift elimination breakthrough (presenting at ICLR 2026) could remove the duration ceiling entirely
 - **xAI targeting 30-minute video** — Announced goal for late 2026, with full-length films targeted for 2027
@@ -224,3 +241,15 @@ Most professional workflows now use 2-3 models per project, routing different sh
 _This page is maintained by RCTV as a public reference. For weekly updates on model releases and industry shifts, see our [Weekly Roundup](/categories/weekly-roundup/)._
 
 _Have a correction or update? Contact us at rctv.oxncw@simplelogin.com_
+
+---
+
+## CHANGELOG
+
+- **Last updated date**: Advanced from March 7 to March 13, 2026
+- **Sora 2 (OpenAI)**: Added Sora 1 retirement notice (effective March 13, US users); added note on reported ChatGPT integration plans (The Information, March 12) and declining standalone app install figures (−45% MoM, January 2026); updated Disney licensing detail to specify all four brands (Disney, Marvel, Pixar, Star Wars); added Note spec bullet summarizing access changes
+- **Runway Gen-4 Turbo**: Added $315M Series C / $5.3B valuation (February 2026); added two-paragraph description of Runway Characters (launched March 9) — real-time avatar API built on GWM-1, BBC and Silverside as launch partners, available at dev.runwayml.com; updated Best for tagline and spec bullets to reflect Characters alongside Gen-4 Turbo
+- **LTX-2 → LTX-2.3**: Renamed entry to reflect new version; rewrote description to cover the 22B-parameter rebuild (new VAE, 4× text connector, HiFi-GAN vocoder), desktop video editor launch, portrait mode (9:16), last-frame interpolation, and 24/48fps options; updated NVIDIA acceleration figures from "3× / 60%" (CES) to "2.5× / 60%" (GDC RTX 50 Series specific); added RTX Video Super Resolution 30× upscaling stat; added ComfyUI App View simplified UI; updated spec bullets (true 4K native, 50fps, Apache 2.0 commercial licensing threshold)
+- **Other Notable Open-Source Models**: Added Helios (Peking University / ByteDance / Canva) — 14B autoregressive diffusion model, 19.5fps real-time on single H100, Apache 2.0, released March 2026
+- **How to Choose routing framework**: Updated "LTX-2" reference to "LTX-2.3"; added "Need real-time interactive avatars? → Runway Characters (GWM-1)"
+- **What's Coming**: Added "Sora integration into ChatGPT" item; updated "NVIDIA GTC 2026" from "later this month" to specific March 16–19 date with Jensen Huang keynote detail; all other items unchanged
