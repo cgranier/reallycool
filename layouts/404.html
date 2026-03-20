@@ -1,0 +1,136 @@
+{{ define "main" }}
+
+<style>
+  /* ── 404 page layout ───────────────────────────────────────────── */
+  .error-404 {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 5rem;
+    font-family: inherit;
+  }
+
+  /* ── Hero: centered text, video hidden until ready ─────────────── */
+  .error-404__hero {
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+
+  /* ── Video — hidden until ready ────────────────────────────────── */
+  .error-404__video-placeholder {
+    display: none;
+  }
+
+  /* When you swap in a real <video>, unhide and style it */
+  .error-404__hero video {
+    width: 100%;
+    max-width: 640px;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 2.5rem;
+  }
+
+  /* ── Message ────────────────────────────────────────────────────── */
+  .error-404__eyebrow {
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #888;
+    margin: 0 0 1rem;
+  }
+
+  .error-404__headline {
+    font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 1.25rem;
+  }
+
+  .error-404__subhead {
+    font-size: 1rem;
+    line-height: 1.65;
+    color: #444;
+    margin: 0;
+  }
+
+  /* ── CTA / subscribe block ──────────────────────────────────────── */
+  .error-404__cta {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .error-404__cta-label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 1.5rem;
+  }
+
+  /* Hide the generic ConvertKit heading */
+  .error-404__cta .formkit-header {
+    display: none;
+  }
+
+  /* ── Footer links ───────────────────────────────────────────────── */
+  .error-404__footer-links {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  .error-404__footer-links a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .error-404__footer-links a:hover {
+    color: #000;
+  }
+</style>
+
+<section class="error-404">
+  <div class="error-404__hero">
+    <!-- ░░░ VIDEO PLACEHOLDER ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+         Replace the <div> below with a looping AI-generated video.
+         Recommended: muted autoplay loop, ~10–20s, 16:9 or square.
+         Example swap-in:
+           <video autoplay loop muted playsinline>
+             <source src="/video/404-loop.mp4" type="video/mp4">
+           </video>
+    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+    <div class="error-404__video-placeholder" aria-hidden="true">
+      <span>[ AI video goes here ]</span>
+    </div>
+
+    <div class="error-404__message">
+      <p class="error-404__eyebrow">404 — Page not found</p>
+      <h1 class="error-404__headline">
+        Looking for something?<br />
+        So is the old video industry.<br />
+        You're in the right place.
+      </h1>
+      <p class="error-404__subhead">
+        RCTV now covers AI-generated video — the models, the moves, and the
+        strategy behind them. Every week, one roundup. No noise.
+      </p>
+    </div>
+  </div>
+
+  <div class="error-404__cta">
+    <h2 class="error-404__cta-label">Get the weekly AI video roundup →</h2>
+    {{ partial "subscribe.html" . }}
+  </div>
+
+  <div class="error-404__footer-links">
+    <p>
+      Or dive in now →
+      <a href="/ai-video-landscape-2026/">AI Video Landscape 2026</a>
+      &nbsp;·&nbsp;
+      <a href="/">Latest roundups</a>
+    </p>
+  </div>
+</section>
+{{ end }}
