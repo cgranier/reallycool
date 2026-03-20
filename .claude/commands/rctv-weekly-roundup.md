@@ -19,7 +19,7 @@ Produce a Hugo-compatible markdown file with the following structure:
 ```
 ---
 title: "AI Video Weekly Roundup — [DATE]"
-date: [YYYY-MM-DDT09:00:00-05:00]
+date: [YYYY-MM-DDT00:00:00-05:00]
 description: "[One-sentence summary of the week's top stories, under 200 characters]"
 tags:
   [
