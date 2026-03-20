@@ -16,6 +16,7 @@ tags:
     "wan",
     "open-source",
     "landscape",
+    "regulation",
   ]
 categories:
   - "Reference"
@@ -23,7 +24,7 @@ slug: "ai-video-landscape-2026"
 draft: false
 ---
 
-This is RCTV's living reference to the AI video generation landscape. Updated regularly as models launch, pricing changes, and capabilities evolve. Last updated: **March 13, 2026**.
+This is RCTV's living reference to the AI video generation landscape. Updated regularly as models launch, pricing changes, and capabilities evolve. Last updated: **March 20, 2026**.
 
 ---
 
@@ -90,12 +91,14 @@ ByteDance's official global API rollout was paused indefinitely in late February
 
 Despite the official freeze, international creators can now access Seedance 2.0 Pro through third-party platforms.
 
+The freeze received new legislative reinforcement on March 19, 2026, when Senator Marsha Blackburn (R-TN) released a draft AI bill stating that the unauthorized use of copyrighted works for AI training is categorically not fair use under the Copyright Act. If enacted, this would formalize the Hollywood studios' legal position into federal statute and could extend liability to models already in circulation — not only future ones.
+
 - **Max resolution:** 2K
 - **Audio:** Native audio with lip-sync
 - **Key feature:** Multi-shot storytelling, quad-modal input, frame-level precision
 - **Access:** China via Jimeng/Dreamina (free tier with daily credits); global via BigMotion ($35–$95/mo), LumeFlow AI, and other third-party platforms
 - **API:** Official global API paused; available via third-party integrations
-- **Note:** Global rollout frozen due to Hollywood copyright pressure; no revised timeline announced
+- **Note:** Global rollout frozen due to Hollywood copyright pressure; Blackburn draft AI bill (March 2026) could formalize liability; no revised timeline from ByteDance
 
 ---
 
@@ -128,11 +131,14 @@ Runway leads in non-photorealistic and stylized video — VFX-oriented aesthetic
 
 On March 9, Runway launched **Characters** — a real-time video agent API built on its GWM-1 world model. Characters generates fully conversational AI avatars from a single reference image with no fine-tuning required. The avatars sustain realistic lip-sync, facial expressions, eye contact, and gesture across extended multi-minute conversations, running at 24fps at 720p in real time. BBC and Silverside are early enterprise partners, with the API available to developers at dev.runwayml.com. Characters targets customer support, interactive training, and branded marketing experiences — a direct play for the enterprise avatar market currently led by HeyGen and Synthesia.
 
+At NVIDIA GTC (March 17, 2026), Runway demoed a research preview of a new **real-time video generation model** running on NVIDIA Vera Rubin hardware — achieving time-to-first-frame under 100ms for HD video. The demo also revealed that **Gen-4.5**, Runway's next commercial model, is being developed and tested on Vera Rubin ahead of its public release; no launch date has been announced. The real-time model is not yet a product, but it establishes the performance target Runway is building toward as Vera Rubin hardware becomes available via cloud providers in H2 2026.
+
 - **Max resolution:** 1080p (Gen-4 Turbo); 720p real-time (Characters)
 - **Audio:** Supported
 - **Key features:** Motion brushes, style control, API maturity; Characters real-time avatar API (GWM-1)
 - **Access:** From $12/mo
 - **API:** Most mature video generation API available; Characters API at dev.runwayml.com
+- **Next:** Gen-4.5 in development; real-time video model research preview on Vera Rubin hardware (sub-100ms TTF)
 - **Note:** Characters is an enterprise API product built on GWM-1, separate from the Gen-4 Turbo generation pipeline
 
 ---
@@ -228,10 +234,13 @@ Most professional workflows now use 2-3 models per project, routing different sh
 
 ## What's Coming
 
-- **Seedance 2.0 Pro global API** — Paused indefinitely; no revised timeline from ByteDance. Third-party access expanding in the meantime
+- **Runway Gen-4.5** — Previewed on NVIDIA Vera Rubin hardware at GTC (March 2026); no public launch date announced. Expected to be Runway's highest-performance commercial model to date
+- **NVIDIA Vera Rubin cloud deployment** — AWS, Google Cloud, Microsoft Azure, and OCI all confirmed H2 2026 availability. Vera Rubin delivers 10× lower inference token cost versus Blackwell — the number that will reshape per-second AI video pricing across all major cloud platforms
+- **DLSS 5** — NVIDIA's neural rendering technology, launching Fall 2026. Explicitly positioned for filmmaking and VFX beyond gaming; uses generative AI to infuse photoreal lighting and materials anchored to source 3D geometry
+- **Blackburn draft AI bill** — GOP Senate draft (March 19, 2026) declares AI training on copyrighted works not fair use; targets deepfakes and Section 230. Not yet introduced as legislation; path to passage uncertain, but framing reflects mainstream Republican positioning on AI copyright
+- **Seedance 2.0 Pro global API** — Paused indefinitely; no revised timeline from ByteDance. Blackburn bill, if it advances, would add legislative pressure on top of existing Hollywood C&D actions
 - **Sora integration into ChatGPT** — The Information (March 12) reports OpenAI plans to fold Sora into ChatGPT rather than maintain a standalone app. No official confirmation or launch date
 - **Google Flow + YouTube integration** — Expected before year-end 2026; paid tiers likely to follow
-- **NVIDIA GTC 2026** — March 16–19 in San Jose. Jensen Huang keynote Monday March 16; expect next-gen silicon, physical AI infrastructure, and potential local video workflow announcements building on the GDC previews
 - **EU AI Act Article 50** — August 2026, requiring machine-readable metadata on all AI-generated content
 - **Unlimited-length AI video** — EPFL's drift elimination breakthrough (presenting at ICLR 2026) could remove the duration ceiling entirely
 - **xAI targeting 30-minute video** — Announced goal for late 2026, with full-length films targeted for 2027
@@ -253,3 +262,13 @@ _Have a correction or update? Contact us at rctv.oxncw@simplelogin.com_
 - **Other Notable Open-Source Models**: Added Helios (Peking University / ByteDance / Canva) — 14B autoregressive diffusion model, 19.5fps real-time on single H100, Apache 2.0, released March 2026
 - **How to Choose routing framework**: Updated "LTX-2" reference to "LTX-2.3"; added "Need real-time interactive avatars? → Runway Characters (GWM-1)"
 - **What's Coming**: Added "Sora integration into ChatGPT" item; updated "NVIDIA GTC 2026" from "later this month" to specific March 16–19 date with Jensen Huang keynote detail; all other items unchanged
+
+---
+
+### March 20, 2026
+
+- **Last updated date**: Advanced from March 13 to March 20, 2026
+- **Tags**: Added `regulation` tag — regulatory developments are now a recurring weekly topic affecting multiple tracked models
+- **Runway Gen-4 Turbo**: Added third description paragraph covering the GTC real-time video model research preview (sub-100ms TTF on Vera Rubin hardware, March 17) and Gen-4.5 signal (confirmed running on Vera Rubin ahead of public release, no launch date); added `Next:` spec bullet summarizing both developments
+- **Seedance 2.0 Pro**: Added paragraph noting legislative reinforcement from the Blackburn draft AI bill (March 19) — which, if enacted, would make unauthorized AI training use of copyrighted works categorically not fair use; updated `Note:` spec bullet to reference the bill
+- **What's Coming**: Removed "NVIDIA GTC 2026" item (event concluded); added "Runway Gen-4.5" (previewed at GTC); added "NVIDIA Vera Rubin cloud deployment H2 2026" (confirmed by AWS, Google Cloud, Microsoft, OCI; 10× inference cost reduction); added "DLSS 5 Fall 2026" (neural rendering with VFX/filmmaking ambitions beyond gaming); added "Blackburn draft AI bill" (copyright/deepfake provisions); updated Seedance item to note Blackburn bill adds legislative pressure
