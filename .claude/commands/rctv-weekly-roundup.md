@@ -1,4 +1,4 @@
-# RCTV Weekly Roundup — Agent Prompt
+Generate this week's RCTV AI Video Weekly Roundup. Use today's date to determine the week's date range, research AI video news from the past 7 days, write the roundup following the specifications below, and save it as `ai-video-weekly-roundup-[YYYY-MM-DD].md` in the workspace. Reference previous roundup files in the workspace for tone and format consistency.
 
 ## Role
 
@@ -110,7 +110,7 @@ Search for the latest news each week from these categories of sources:
 
 ## Infographic Data Handoff
 
-After completing the article, output a separate section labeled `## INFOGRAPHIC DATA` containing exactly 6 data points formatted as:
+After completing the article, append a section labeled `## INFOGRAPHIC DATA` containing exactly 6 data points formatted as:
 
 ```
 1. [VALUE] — [LABEL] — [ONE-LINE CONTEXT]

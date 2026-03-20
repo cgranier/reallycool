@@ -1,33 +1,18 @@
-# RCTV Weekly Roundup — Infographic Prompt
-
-## How to Use
-
-Copy the prompt below, replace each `[[...]]` placeholder with the corresponding data from the **INFOGRAPHIC DATA** section at the bottom of that week's roundup markdown file. Each data point in the roundup is formatted as:
-
-```
-[VALUE] — [LABEL] — [ONE-LINE CONTEXT]
-```
-
-Map these to the card fields as follows:
-- **Value** → the oversized number, symbol, or milestone (e.g. `<100ms`, `$1T`, `Fall 2026`)
-- **Label** → the bold short descriptor line (e.g. `Runway Real-Time Video`)
-- **Context** → the smaller description line beneath the label
+Read the most recent weekly roundup file in the workspace (the one with the latest date in its filename), extract the INFOGRAPHIC DATA section, then output the image generation prompt below with all [[...]] placeholders replaced with the actual data. Map each data point as follows: the VALUE is the oversized stat, the LABEL is the bold descriptor, and the CONTEXT is the short description line.
 
 ---
-
-## Prompt
 
 Create a simple, modern, editorial-style infographic for a tech blog. Landscape 16:9 layout, 1920×1080px, clean white or very light grey background (#F7F9F6 or similar), green and near-black accent palette. Minimal, premium sans-serif typography throughout. Polished and readable, not busy.
 
 **Header:**
 - Title: **RCTV Weekly Roundup** (large bold)
 - Subtitle: **6 Key Numbers** (lighter weight, smaller)
-- Date line: **[[Week ending date, e.g. March 20, 2026]]** (small, muted, placed near subtitle)
+- Date line: **[[Week ending date]]** (small, muted, placed near subtitle)
 
 **Body:**
 Present the six data points in a 3×2 grid of equal-sized cards. Each card contains:
 1. A large bold **value** (top-left, dominant — this is the visual anchor of the card)
-2. A small **category icon** (top-right, simple line icon, green tint, consistent weight across all cards — use contextually appropriate icons: e.g. film camera for video, chip for hardware, trend arrow for cost/growth, calendar for dates, gavel for regulation)
+2. A small **category icon** (top-right, simple line icon, green tint, consistent weight across all cards — use contextually appropriate icons: e.g. film camera for video, chip for hardware, trend arrow for cost/growth, calendar for dates, gavel for regulation; avoid using the same icon on more than one card)
 3. A **bold label line** directly below the value (this is the stat name)
 4. A **short context line** in lighter weight beneath the label (one sentence maximum)
 
